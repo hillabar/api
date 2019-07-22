@@ -1,0 +1,35 @@
+<html >
+    <head>
+        <title>Trip Me</title>
+        <link rel="stylesheet" type="text/css" href="styleMain.css">
+    </head>
+    
+    <body ng-app="myApp" class="bg"> 
+        <!-- load angular -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.js"></script>
+        <script src="https://code.angularjs.org/1.7.8/angular-route.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <!-- load app -->
+        <script src="app.js"></script>
+        <!-- load controllers -->
+        <script src="pages/register/registerController.js"></script>
+        <script src="pages/login/loginController.js"></script>
+        <script src="pages/about/aboutController.js"></script>
+        <script src="pages/poi/poiController.js"></script>
+        <link rel="stylesheet" type="text/css" href="login.css" />
+        <link rel="stylesheet" type="text/css" href="about.css" />
+        <link rel="stylesheet" type="text/css" href="homeStyle.css" />
+        <!-- the website --> 
+    <ul >
+        <img class="logo-img"  src="italy-flag.gif" width="50" height="50" ALT="align box" ALIGN=CENTER>
+        <li><a class="btn_menu" href="#!/"><b>Home</b></a></li>
+        <li><a class="btn_menu" href="#!/register"><b>register</b></a></li>
+        <li><a class="btn_menu" href="#!/login"><b>Login</b></a></li>
+        <li><a class="btn_menu" href="#!/about"><b>About</b></a></li>
+        <li><a class="btn_menu" href="#!/poi"><b>Our points of interest</b></a></li>
+    </ul>
+        
+         <!-- This section changes as the hashbang changes -->
+         <div ng-view></div>
+    </body>
+</html>

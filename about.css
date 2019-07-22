@@ -1,0 +1,68 @@
+/* 
+
+.aboutStyle {
+    border: 1px solid gray;
+    padding: 8px;
+  }
+  
+  #bla {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+  }
+  
+  p {
+    text-indent: 100px;
+    text-align: justify;
+    letter-spacing: 3px;
+    color: rgba(156, 144, 144, 0.247);
+    font-size: 190%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #008CBA;
+  } */
+
+  @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+/* .bodyAbout {
+  font-family: 'Source Sans Pro', sans-serif;
+} */
+
+.headerAbout {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
+  background-size: cover;
+  height: 87vh;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+#h1About {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+#h2About {
+  font-size: 2rem;
+}
+#pAbout {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.mainAbout {
+  max-width: 700px;
+  margin: 20px auto;
+}

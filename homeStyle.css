@@ -1,0 +1,28 @@
+.headerHome {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    );
+    background-size: cover;
+    height: 80vh;
+  }
+  
+  .titleHome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  #h1Home {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+    white-space: nowrap;
+  }
+  #pHome {
+    margin: 0;
+    font-size: 1.3rem;
+  }

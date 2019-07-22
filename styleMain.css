@@ -1,0 +1,55 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("milan_domo2.jpg");
+  
+    /* Full height*/ 
+    height: 100%; 
+    width: auto;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+   display: table;
+   text-align: center;
+  }
+  li {
+    display: inline-block;
+    float: none;  }
+  
+  li a { display: inline-block;
+    margin-right:100px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  li a:hover {
+    background-color: rgb(44, 160, 125);
+  }
+  
+  .logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+.bg-div{
+   background:#333;
+   overflow: hidden;
+}
